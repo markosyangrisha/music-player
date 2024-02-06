@@ -1,0 +1,53 @@
+.song-search-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	color: white;
+	cursor: pointer;
+	margin-bottom: 10px;
+	transition: .1 all;
+}
+
+.song-search-item:hover {
+	background-color: #1e1e1e;
+}
+
+.search-left-span {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.search-left-span img {
+	width: 60px;
+	height: 60px;
+	border-radius: 0.4em;
+	object-fit: cover;
+	object-position: center;
+}
+
+.search-song-item-about span {
+	display: block;
+	color: white;
+}
+
+.search-song-item-about {
+	display: block;
+	color: white;
+}
+
+.search-song-item-about span:first-child {
+	color: white;
+	margin-bottom: 5px;
+}
+
+.search-song-item-about span:last-child {
+	color: #a3a3a3;
+	font-size: 0.8em;
+}
+
+.search-right-span span {
+	font-size: .8em;
+	opacity: .5;
+}

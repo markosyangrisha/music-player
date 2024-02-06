@@ -1,0 +1,73 @@
+@import url('../../styles/variables.css');
+
+.registration {
+	margin: auto;
+	background-color: #262626;
+	width: 450px;
+	height: 90%;
+	padding: 30px;
+	border-radius: 0.4em;
+	border: 1px solid rgba(179, 172, 172, 0.284);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	overflow-y: auto;
+}
+
+.registration::-webkit-scrollbar {
+	width: 0;
+}
+
+.registration-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+}
+
+.registration-header {
+	text-align: center;
+	border-bottom: 1px solid #b3acac0e;
+	width: 100%;
+}
+
+.registration-header h2 {
+	font-size: 1.3em;
+	margin-bottom: 20px;
+}
+
+.registration-header p {
+	font-size: 0.8em;
+	margin-bottom: 25px;
+}
+
+.go-login {
+	font-size: 0.8em;
+	color: var(--placeholder-color);
+	text-decoration: underline;
+	transition: 0.1s;
+}
+
+.go-login:hover {
+	color: rgb(179, 172, 172);
+}
+
+.registration-go-home {
+	font-size: 0.8em;
+	color: var(--placeholder-color);
+	text-decoration: underline;
+	transition: 0.1s;
+}
+
+.registration-go-home:hover {
+	color: rgb(179, 172, 172);
+}
+
+.register-is-valid {
+	font-size: 0.8em;
+	color: var(--error-message-color);
+}
+
+@media (max-width: 640px) {
+	.registration {
+		width: 100%;
+	}
+}

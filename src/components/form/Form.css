@@ -1,0 +1,66 @@
+@import url('../../styles/variables.css');
+
+.form-content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 395px;
+	width: 100%;
+}
+
+.form-content-input-block {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+
+.form-content-input-block label {
+	color: var(--primary-color);
+	font-size: 0.9em;
+}
+
+.form-content-input-block input {
+	padding: 12px;
+	border-radius: 0.4em;
+	border: none;
+	outline: none;
+	background-color: #1e1e1e;
+	width: 100%;
+	border: 1px solid rgba(179, 172, 172, 0.258);
+}
+
+.form-content-input-block input::placeholder {
+	color: var(--placeholder-color);
+}
+
+.form-btn {
+	width: 100%;
+	background-color: #404040;
+	padding: 12px;
+	border-radius: 0.4em;
+	border: 1px solid #2a9953;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+.form-btn:hover {
+	background-color: #2a9953;
+}
+
+.password {
+	position: relative;
+}
+
+.password-eye {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.is-valid {
+	color: var(--error-message-color);
+	font-size: 0.8em;
+}

@@ -1,0 +1,38 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 30px;
+}
+
+.user-entry {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.sign-up {
+	color: white;
+}
+
+.sign-in {
+	padding: 10px 20px;
+	color: black;
+	border-radius: 2.1em;
+	background-color: white;
+	font-weight: 500;
+}
+
+@media (max-width: 640px) {
+	.user-entry {
+		gap: 15px;
+	}
+
+	.sign-up {
+		font-size: 0.8em;
+	}
+
+	.sign-in {
+		padding: 7px 15px;
+		font-size: 0.8em;
+	}
+}

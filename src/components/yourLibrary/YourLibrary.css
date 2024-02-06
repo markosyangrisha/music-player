@@ -1,0 +1,108 @@
+.your-library {
+	width: 100%;
+	background-color: #242424;
+	padding: 20px;
+	border-radius: inherit;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.library-title {
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+
+.library-sub-text {
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+
+.library-btn {
+	align-self: flex-start;
+	color: black;
+	font-size: 0.8em;
+	padding: 8px 15px;
+	font-weight: 600;
+	border-radius: 2em;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+.library-btn:hover {
+	transform: scale(1.05);
+}
+
+/* Modal */
+
+.library-modal {
+	width: 100%;
+	background-color: #242424;
+	padding: 20px;
+	border-radius: inherit;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	background-color: #3b3bf4;
+	position: absolute;
+	right: -100%;
+	z-index: 888;
+	transform: translateX(10px);
+	transition: 0.3s;
+	visibility: hidden;
+}
+
+.active-modal {
+	display: flex;
+	transform: translateX(0px);
+	visibility: visible;
+}
+
+.close-active-modal {
+	opacity: 0;
+}
+
+.library-modal-title {
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+
+.library-modal-sub-text {
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+
+.library-modal-btn {
+	align-self: flex-end;
+	color: black;
+	letter-spacing: 1px;
+	font-size: 0.8em;
+	padding: 8px 15px;
+	font-weight: 600;
+	border-radius: 2em;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.library-modal-btn:hover {
+	transform: scale(1.05);
+}
+
+.triangle {
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 50%;
+	left: -2px;
+	border-left: 16px solid transparent;
+	border-right: 9px solid transparent;
+	border-bottom: 37.3px solid #3b3bf4;
+	transform: rotate(150deg);
+}

@@ -1,0 +1,66 @@
+.song-slid {
+	display: flex;
+}
+
+.song-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	color: white;
+	cursor: pointer;
+	margin-bottom: 10px;
+	padding: 10px 0;
+	border-radius: 0.4em;
+}
+
+.song-item:hover {
+	background-color: #43424281;
+}
+
+.song-item-about {
+	display: block;
+	color: white;
+}
+
+.left-span {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.left-span img {
+	width: 40px;
+	height: 40px;
+	border-radius: 0.4em;
+	object-fit: cover;
+	object-position: center;
+}
+
+.song-item-about span {
+	display: block;
+	color: white;
+}
+
+.song-item-about span:first-child {
+	color: white;
+	margin-bottom: 5px;
+	font-size: 0.8em;
+}
+
+.song-item-about span:last-child {
+	color: #a3a3a3;
+	font-size: 0.7em;
+}
+
+.right-span span {
+	font-size: 0.8em;
+	opacity: 0.5;
+}
+
+.song-item-delete {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}

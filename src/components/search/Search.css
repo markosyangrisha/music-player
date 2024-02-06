@@ -1,0 +1,21 @@
+.search {
+	margin-bottom: 25px;
+}
+
+.search h2 {
+	margin-bottom: 20px;
+	font-size: 2em;
+}
+
+.search input {
+	width: 100%;
+	outline: none;
+	border-radius: 0.5em;
+	padding: 12px;
+	background-color: #404040;
+	border: none;
+}
+
+.search input::placeholder {
+	color: #cac8c8;
+}
